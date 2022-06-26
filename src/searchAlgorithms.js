@@ -11,12 +11,7 @@ import {
 
 let data;
 
-//SOLO LÓGICA!!! de las búsquedas y devolverán la posición o valor (en caso de Quick) o -1 en caso no encontrar
 async function binarySearch(list, data) {
-  //la funcion ahora es async y devuelve objetos de tipo Promise
-  //inicializar contador
-  (tInicio = performance.now()), (output = 0);
-  /////////////
   output = 0;
   let min = 0;
   let temp;
@@ -83,9 +78,6 @@ async function binarySearch(list, data) {
 }
 
 async function linearSearch(list, data) {
-  //inicializar contador
-  (tInicio = performance.now()), (output = 0);
-  /////////////
   let i = 0;
   let temp;
 
@@ -115,10 +107,6 @@ async function linearSearch(list, data) {
 }
 
 async function quickSelect(list, left, right, data) {
-  //inicializar contador
-  (tInicio = performance.now()), (output = 0);
-  /////////////
-
   let pivot = list[right];
   let temp = "elQ" + right;
 
