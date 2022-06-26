@@ -1,0 +1,28 @@
+/* Bootstrap overrides */
+
+#override .btn {
+  border-radius: 1px;
+  border: 1px solid transparent;
+  padding: 8px 20px;
+}
+
+#override .btn-primary {
+  background-color: #0f62fe;
+}
+
+#override .btn-primary:hover {
+  background-color: #0353e9;
+}
+
+#override .row {
+  margin: 0;
+  padding: 0;
+}
+
+#override a {
+  color: #f4f4f4;
+}
+
+#override .nav-link.active {
+  color: #000;
+}

@@ -1,0 +1,55 @@
+/* Base styles for html tags */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #161616;
+  color: #f4f4f4;
+}
+
+main {
+  margin-bottom: 20px;
+}
+
+header h1 {
+  padding: 10px 40px;
+  color: rgb(211, 243, 253);
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  padding: 5px 10px;
+  width: 80px;
+  border: none;
+  border-radius: 1px;
+  border-bottom: 2px solid #5a6872;
+  color: #f4f4f4;
+}
+
+input {
+  background-color: #303030;
+}
+
+input[type="number"]:hover {
+  background-color: #242424;
+  transition: 200ms ease-in-out all;
+}
+
+input[type="number"]:focus {
+  border-color: rgb(18, 156, 236);
+  outline: none;
+}
+
+pre {
+  color: #f4f4f4;
+  white-space: pre;
+  font-size: 0.7rem;
+}

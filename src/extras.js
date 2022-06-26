@@ -5,7 +5,6 @@ export let posiQuick = false;
 export let zoom = 80;
 export let zoomTxt = 35;
 export let tInicio;
-export let tFinal;
 
 var valoresPermisibles = false;
 
@@ -77,10 +76,6 @@ export function setList(list) {
         list[index] = Math.floor(
           Math.random() * (maxVal - minVal + 1) + minVal
         );
-      }
-      console.log("Elementos: (" + min + "," + max + ")");
-      for (index = 0; index < list.length; index++) {
-        console.log(list[index]);
       }
       valoresPermisibles = true;
     }
@@ -202,11 +197,6 @@ export function obtenerDelay() {
 }
 
 export function msgEncontrado(encontrado, tipo) {
-  //Finalizar contador
-  tFinal = performance.now();
-  let tiempoEjecucion = Math.floor(tFinal - tInicio);
-  /////////////
-
   let msg = "";
 
   if (encontrado) {
@@ -220,13 +210,6 @@ export function msgEncontrado(encontrado, tipo) {
   }
 
   msg = encontrado ? "Valor encontrado" : "Valor NO encontrado";
-  msg +=
-    "&nbsp;&nbsp;" +
-    "Tiempo de ejecución: " +
-    Math.trunc(tiempoEjecucion / 1000) +
-    "," +
-    (tiempoEjecucion % 1000) +
-    " s";
   if (tipo == "b") errorB.innerHTML = msg;
   else if (tipo == "l") errorL.innerHTML = msg;
   else {
