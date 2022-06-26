@@ -1,0 +1,23 @@
+{
+  "name": "algo-search",
+  "version": "1.0.0",
+  "description": "Repositorio del Grupo 2 del curso de Estructura de Datos",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "parcel public/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeuGimrt/algo-search.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeuGimrt/algo-search/issues"
+  },
+  "homepage": "https://github.com/LeuGimrt/algo-search#readme",
+  "dependencies": {
+    "animejs": "^3.2.0"
+  }
+}
