@@ -1,7 +1,7 @@
 .animacion {
   height: 60vh;
   background-color: #000000;
-  background-image: url(../img/bg-dark.png);
+  background-image: url(../assets/bg-dark.png);
   display: flex;
   object-fit: cover;
 }

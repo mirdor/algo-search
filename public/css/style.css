@@ -85,3 +85,14 @@
   margin: 2px;
   padding: 0;
 }
+
+#footer {
+  text-align: center;
+  padding: 2em;
+  margin-top: 2em;
+}
+
+#footer a {
+  color: rgb(100, 100, 100);
+  font-family: monospace;
+}

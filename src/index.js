@@ -1,14 +1,13 @@
-//BOTON DE LLENAR ARREGLO
+import "./variables";
+import { exeBinaria, exeLinear, exeQuick } from "./algorithms";
 import {
-  getNumElementos,
-  setList,
   escribirLista,
+  getNumElementos,
+  insercion,
+  setList,
   zoomIn,
   zoomOut,
-  insercion,
-  list,
-} from "./extras";
-import { exeBinaria, exeLinear, exeQuick } from "./searchAlgorithms";
+} from "./utils";
 
 document
   .getElementById("botonLlenar")
