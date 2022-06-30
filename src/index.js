@@ -1,4 +1,3 @@
-import "./variables";
 import { exeBinaria, exeLinear, exeQuick } from "./algorithms";
 import {
   escribirLista,

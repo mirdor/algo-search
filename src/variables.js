@@ -1,10 +1,10 @@
 // Initializing globals
-list = [];
-posiQuick = false;
-zoom = 80;
-zoomTxt = 35;
-valoresPermisibles = false;
+var list = [];
+var posiQuick = false;
+var zoom = 80;
+var zoomTxt = 35;
+var valoresPermisibles = false;
 
-export var errorB = document.querySelector("#error-2b");
-export var errorL = document.querySelector("#error-2l");
-export var errorQ = document.querySelector("#error-2q");
+var errorB = document.querySelector("#error-2b");
+var errorL = document.querySelector("#error-2l");
+var errorQ = document.querySelector("#error-2q");
